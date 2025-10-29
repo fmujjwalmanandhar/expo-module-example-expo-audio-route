@@ -57,7 +57,7 @@ public class ExpoAudioRouteModule: Module {
      }
 
     
-    private func currentRoute(): String {
+    private func currentRoute() -> String {
         let session = AVAudioSession.sharedInstance()
         let outputs = session.currentRoute.outputs
         
